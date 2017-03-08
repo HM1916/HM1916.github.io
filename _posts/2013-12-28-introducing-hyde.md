@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: twocolumn
 title: Introducing Hyde
 ---
 
