@@ -194,12 +194,6 @@
 
     &.site-title {
       margin-left: 0;
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-pack: end;
-       justify-content: flex-end;
-      -webkit-box-flex: 1;
-                  flex: 1;
     }
   }
 
@@ -216,6 +210,10 @@
   .visible-links {
     padding-right: 2rem;
     overflow: hidden;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: 1;
+                flex: 1;
 
     li {
       -webkit-box-flex: 0;
