@@ -1,102 +1,34 @@
-<!DOCTYPE HTML>
+---
+---
+
+<!doctype html>
 <!--
-	Minimaxing by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Minimal Mistakes Jekyll Theme 4.2.2 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
 -->
-<html>
-  {% include head.html %}
-	<body>
-		<div id="page-wrapper">
-      {% include navbar.html %}
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-      {{ content }}
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-			<div id="footer-wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="8u 12u(mobile)">
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-							<section>
-								<h2>How about a truckload of links?</h2>
-								<div>
-									<div class="row">
-										<div class="3u 12u(mobile)">
-											<ul class="link-list">
-												<li><a href="#">Sed neque nisi consequat</a></li>
-												<li><a href="#">Dapibus sed mattis blandit</a></li>
-												<li><a href="#">Quis accumsan lorem</a></li>
-												<li><a href="#">Suspendisse varius ipsum</a></li>
-												<li><a href="#">Eget et amet consequat</a></li>
-											</ul>
-										</div>
-										<div class="3u 12u(mobile)">
-											<ul class="link-list">
-												<li><a href="#">Quis accumsan lorem</a></li>
-												<li><a href="#">Sed neque nisi consequat</a></li>
-												<li><a href="#">Eget et amet consequat</a></li>
-												<li><a href="#">Dapibus sed mattis blandit</a></li>
-												<li><a href="#">Vitae magna sed dolore</a></li>
-											</ul>
-										</div>
-										<div class="3u 12u(mobile)">
-											<ul class="link-list">
-												<li><a href="#">Sed neque nisi consequat</a></li>
-												<li><a href="#">Dapibus sed mattis blandit</a></li>
-												<li><a href="#">Quis accumsan lorem</a></li>
-												<li><a href="#">Suspendisse varius ipsum</a></li>
-												<li><a href="#">Eget et amet consequat</a></li>
-											</ul>
-										</div>
-										<div class="3u 12u(mobile)">
-											<ul class="link-list">
-												<li><a href="#">Quis accumsan lorem</a></li>
-												<li><a href="#">Sed neque nisi consequat</a></li>
-												<li><a href="#">Eget et amet consequat</a></li>
-												<li><a href="#">Dapibus sed mattis blandit</a></li>
-												<li><a href="#">Vitae magna sed dolore</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</section>
+    {{ content }}
 
-						</div>
-						<div class="4u 12u(mobile)">
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
 
-							<section>
-								<h2>Something of interest</h2>
-								<p>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed.
-								Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet
-								mollis justo facilisis quis. Sed sagittis mauris amet tellus gravida
-								lorem ipsum dolor sit amet consequat blandit.</p>
-								<footer class="controls">
-									<a href="#" class="button">Oh, please continue ....</a>
-								</footer>
-							</section>
+    {% include scripts.html %}
 
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
-
-							<div id="copyright">
-								&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Scripts -->
-			<script src="/assets/js/jquery.min.js"></script>
-			<script src="/assets/js/skel.min.js"></script>
-			<script src="/assets/js/skel-viewport.min.js"></script>
-			<script src="/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/assets/js/main.js"></script>
-
-	</body>
+  </body>
 </html>
