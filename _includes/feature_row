@@ -16,6 +16,12 @@
 
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
+        {% if f.fa %}
+        <div class="archive__item-teaser">
+          <i class="fa {{ f.fa }}" aria-hidden="true"></i>
+        </div>
+        {% endif %}
+
         {% if f.image_path %}
           <div class="archive__item-teaser">
             <img src=

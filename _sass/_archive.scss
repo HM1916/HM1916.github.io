@@ -35,6 +35,8 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  font-size: $type-size-5;
+  text-align: center;
 
   a + a {
     opacity: 0.5;
@@ -53,6 +55,7 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  font-weight: lighter;
 
   & + p {
     text-indent: 0;
@@ -62,18 +65,13 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+  text-align: center;
+
   img {
     width: 100%;
   }
-}
-
-.archive__item:hover {
-  .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
-  }
-
-  .archive__item-title {
-    text-decoration: underline;
+  i.fa {
+    font-size: $type-size-0;
   }
 }
 
