@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="159 152 233 144" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,400,400italic,600,600italic,700,700italic,900,900italic);</style>
+    <linearGradient id="gradient-0" gradientUnits="userSpaceOnUse" x1="276.543" y1="166.285" x2="276.543" y2="201.285">
+      <stop offset="0" style="stop-color: rgba(255, 94, 94, 1)"/>
+      <stop offset="1" style="stop-color: rgba(247, 0, 0, 1)"/>
+    </linearGradient>
+  </defs>
+  <g class="logo__item__inner" transform="matrix(2.297166, 0, 0, 2.21448, 140.232025, 246.83429)">
+    <text data-part-id="logo__item--business" data-font-family="Montserrat" data-font-weight="bold" data-font-style="normal" data-ttf-url="/builder_assets/fontsttf/font-montserrat-bold-normal.ttf" x="13.462" y="-8.183" style="fill: rgb(121, 119, 120); font-family: &quot;Source Sans Pro&quot;; font-size: 18.0629px; text-transform: lowercase; white-space: pre;">Luminaire</text>
+  </g>
+  <path fill="#72973E" d="M 312.194 164.212 C 311.998 164.212 311.998 164.212 312.194 164.212 C 311.998 164.212 311.998 164.212 312.194 164.212 L 312.194 164.212 Z" data-part-id="logo__item--logo_0__0" transform="matrix(-0.999834, 0.019386, -0.017089, -0.999834, 626.946586, 322.346396)"/>
+  <text x="86.348" y="226.931" transform="matrix(0.765214, 0, 0, 0.756592, 142.129974, 82.514336)" style="fill: rgb(121, 119, 120); font-family: &quot;Source Sans Pro&quot;; font-size: 33.0429px; text-transform: lowercase; white-space: pre;">Consultancy</text>
+  <path fill="#72973E" d="M 293.711 341.69 C 293.515 341.69 293.515 341.69 293.711 341.69 C 293.515 341.69 293.515 341.69 293.711 341.69 L 293.711 341.69 Z" data-part-id="logo__item--logo_0__0" transform="matrix(-0.999834, 0.019387, -0.01709, -0.999834, 593.01701, 677.630951)"/>
+  <path d="M -103.579 352.401 Z" style="stroke: black; fill: none;"/>
+  <path d="M -103.579 352.401 Z" style="stroke: black; fill: none;"/>
+  <path d="M 282.847 398.774 Z" style="stroke: black; fill: none;"/>
+  <path fill="#72973E" d="M 344.671 303.577 C 344.438 303.577 344.438 303.577 344.671 303.577 C 344.438 303.577 344.438 303.577 344.671 303.577 L 344.671 303.577 Z" data-part-id="logo__item--logo_0__0" transform="matrix(-0.999787, 0.020647, -0.020647, -0.999787, 695.303534, 599.975259)"/>
+  <path fill="#72973E" d="M 322.671 528.577 C 322.438 528.577 322.438 528.577 322.671 528.577 C 322.438 528.577 322.438 528.577 322.671 528.577 L 322.671 528.577 Z" data-part-id="logo__item--logo_0__0" transform="matrix(-0.999787, 0.020648, -0.020648, -0.999787, 655.954288, 1050.381251)"/>
+  <path d="M 123.613 330.352 Z" style="stroke: black; fill: none;"/>
+  <path d="M 189.736 295.198 Z" style="stroke: black; fill: none;"/>
+  <path d="M 39.912 323.656 Z" style="stroke: black; fill: none;"/>
+  <path d="M 123.613 331.189 Z" style="stroke: black; fill: none;"/>
+  <path d="M 307.496 158.21 C 306.693 157.299 305.487 156.727 304.282 156.727 C 298.958 156.727 292.327 166.075 304.684 191.727 C 304.585 191.727 314.327 165.963 307.496 158.21 Z" data-part-id="logo__item--logo_0__1" transform="matrix(0.995962, -0.089773, 0.089773, 0.995962, -14.416084, 27.933974)" style="fill: rgb(255, 168, 92);"/>
+  <path d="M 280.711 167.768 C 279.908 166.857 278.702 166.285 277.498 166.285 C 272.173 166.285 265.543 175.634 277.899 201.285 C 277.8 201.285 287.543 175.521 280.711 167.768 Z" data-part-id="logo__item--logo_0__1" transform="matrix(0.817643, -0.575726, 0.575726, 0.817643, -55.380166, 192.727605)" style="fill: url(#gradient-0);"/>
+  <path d="M 344.017 261.042 C 343.213 260.132 342.009 259.56 340.804 259.56 C 335.479 259.56 328.849 268.907 341.206 294.56 C 341.107 294.56 350.849 268.795 344.017 261.042 Z" data-part-id="logo__item--logo_0__1" transform="matrix(-0.817657, 0.575706, -0.575706, -0.817657, 777.233949, 307.946721)" style="fill: rgb(217, 162, 246);"/>
+  <path d="M 363.99 239.386 C 363.187 238.475 361.981 237.903 360.777 237.903 C 355.452 237.903 348.822 247.252 361.178 272.903 C 361.079 272.903 370.822 247.138 363.99 239.386 Z" data-part-id="logo__item--logo_0__1" transform="matrix(-0.420235, 0.907415, -0.907415, -0.420235, 742.788384, 36.224314)" style="fill: rgb(172, 106, 234);"/>
+  <path d="M 358.442 183.1 C 357.639 182.188 356.434 181.617 355.229 181.617 C 349.904 181.617 343.275 190.965 355.631 216.617 C 355.532 216.617 365.275 190.852 358.442 183.1 Z" data-part-id="logo__item--logo_0__1" transform="matrix(0.575727, 0.817642, -0.817642, 0.575727, 313.115499, -205.190124)" style="fill: rgb(81, 255, 81);"/>
+  <path d="M 336.773 163.774 C 335.97 162.863 334.766 162.291 333.561 162.291 C 328.236 162.291 321.605 171.64 333.96 197.291 C 333.863 197.291 343.605 171.527 336.773 163.774 Z" data-part-id="logo__item--logo_0__1" transform="matrix(0.907415, 0.420236, -0.420236, 0.907415, 106.3489, -123.126604)" style="fill: rgb(255, 233, 89);"/>
+  <path d="M 368.764 211.76 C 367.961 210.849 366.756 210.277 365.551 210.277 C 360.226 210.277 353.596 219.626 365.953 245.277 C 365.854 245.277 375.596 219.512 368.764 211.76 Z" data-part-id="logo__item--logo_0__1" transform="matrix(0.089773, 0.995962, -0.995962, 0.089773, 558.722483, -155.795075)" style="fill: rgb(84, 84, 255);"/>
+</svg>
