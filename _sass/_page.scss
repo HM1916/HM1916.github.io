@@ -48,7 +48,7 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-2;
-  background: #ccf959;
+  background: #fff;
   text-align: left;
   z-index: 5;
   opacity: 0.5;
@@ -143,11 +143,11 @@
 
     .wrapper {
       padding-left: 0;
-      padding-right: 10em;
+      padding-right: 12em;
       padding-top: 4em;
 
       @include breakpoint($x-large) {
-        max-width: $x-large;
+        max-width: 150px;
       }
     }
 
@@ -160,7 +160,7 @@
     }
 
     .page__lead {
-      max-width: $medium;
+      max-width: 150px
     }
 
     .page__title {
@@ -187,10 +187,9 @@
   color: #000;
   font-family: $global-font-family;
   font-size: $type-size-4;
-  background: #ccf959;
+  background: #fff;opacity: 0.5;
   text-align: left;
   z-index: 5;
-  opacity: 0.5;
   border-radius: $border-radius 0 $border-radius 0;
 
 
