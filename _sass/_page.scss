@@ -47,7 +47,7 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-3;
+  font-size: $type-size-2;
 }
 
 .page__content {
@@ -138,7 +138,7 @@
     .wrapper {
       padding-left: 1em;
       padding-right: 1em;
-      padding-top: 3em;
+      padding-top: 4em;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
