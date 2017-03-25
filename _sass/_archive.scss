@@ -233,27 +233,4 @@
       }
     }
   }
-  &--center_text {
-    @include full();
-    font-size: 1.25rem;
-    background-color: background-color-intro;
-
-    .archive__item-teaser {
-      margin-bottom: 2em;
-    }
-
-    @include breakpoint($small) {
-      text-align: center;
-
-      .archive__item-teaser {
-        margin: 0 auto;
-        width: span(5 of 12);
-      }
-
-      .archive__item-body {
-        margin: 0 auto;
-        width: span(7 of 12);
-      }
-    }
-  }
 }
