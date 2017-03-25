@@ -147,7 +147,7 @@
       padding-top: 4em;
 
       @include breakpoint($x-large) {
-        max-width: 800px;
+        max-width: $x-large;
       }
     }
 
@@ -160,7 +160,7 @@
     }
 
     .page__lead {
-      max-width: 800px;
+      max-width: $medium;
     }
 
     .page__title {
@@ -187,9 +187,10 @@
   color: #000;
   font-family: $global-font-family;
   font-size: $type-size-4;
-  background: #fff;opacity: 0.5;
+  background: #fff;
   text-align: left;
   z-index: 5;
+  opacity: 0.5;
   border-radius: $border-radius 0 $border-radius 0;
 
 
