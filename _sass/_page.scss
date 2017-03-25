@@ -147,7 +147,7 @@
       padding-top: 4em;
 
       @include breakpoint($x-large) {
-        max-width: 500px;
+        max-width: 800px;
       }
     }
 
@@ -160,7 +160,8 @@
     }
 
     .page__lead {
-      max-width: 500px
+      max-width: 800px
+      padding-right: 12em
     }
 
     .page__title {
