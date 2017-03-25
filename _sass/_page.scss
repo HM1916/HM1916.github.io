@@ -48,7 +48,7 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-2;
-  background: #fff;
+  background: #ccf959;
   text-align: left;
   z-index: 5;
   opacity: 0.5;
@@ -142,8 +142,8 @@
     }
 
     .wrapper {
-      padding-left: 1em;
-      padding-right: 6em;
+      padding-left: 0;
+      padding-right: 10em;
       padding-top: 4em;
 
       @include breakpoint($x-large) {
@@ -181,13 +181,13 @@
 
 .page__hero-caption {
   position: relative;
-  padding-left: 1em;
+  padding-left: 2em;
   margin-bottom: 2em;
   padding: 5px 5px;
   color: #000;
   font-family: $global-font-family;
   font-size: $type-size-4;
-  background: #fff;
+  background: #ccf959;
   text-align: left;
   z-index: 5;
   opacity: 0.5;
