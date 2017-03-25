@@ -236,7 +236,7 @@
   &--center-intro {
     @include full();
     font-size: 1.25rem;
-    background-color: $background-color-intro
+    background-color: $background-color-intro;
 
     .archive__item-teaser {
       margin-bottom: 2em;
