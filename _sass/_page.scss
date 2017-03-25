@@ -47,7 +47,7 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-0;
+  font-size: $type-size-3;
 }
 
 .page__content {
@@ -173,10 +173,8 @@
 }
 
 .page__hero-caption {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 0 auto;
+  position: relative;
+  margin-bottom: 2em;
   padding: 2px 5px;
   color: #fff;
   font-family: $global-font-family;
@@ -186,6 +184,7 @@
   z-index: 5;
   opacity: 0.5;
   border-radius: $border-radius 0 $border-radius 0;
+
 
   @include breakpoint($large) {
     padding: 5px 10px;
