@@ -28,7 +28,7 @@
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
       {% if page.excerpt %}
-        <p class="page__lead">{{ page.excerpt}}</p>
+        <span class="page__lead"><p>{{ page.excerpt}}</p></span>
       {% endif %}
       {% if site.read_time and page.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -36,11 +36,14 @@
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
+      {% if page.header.caption %}
+        <span class="page__hero-caption"><p>{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</p></span>
+      {% endif %}
     </div>
   {% else %}
     <img src="{{ img_path }}" alt="{{ page.title }}" class="page__hero-image">
-  {% endif %}
-  {% if page.header.caption %}
-    <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+    {% if page.header.caption %}
+      <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+    {% endif %}
   {% endif %}
 </div>
