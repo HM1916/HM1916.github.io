@@ -48,11 +48,9 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-2;
-  padding-left: 2em;
-
-  padding: 5px 5px;
+  padding: 3px 3px;
   z-index: 5;
-  background: rgba(255,255,255,0.8);
+  background: rgba(0,0,0,0.7);
   text-align: left;
   border-radius: $border-radius 0 $border-radius 0;
 
@@ -145,7 +143,7 @@
 
     .wrapper {
       padding-left: 2em;
-      padding-top: 2em;
+      padding-top: 21.5em;
 
       p {
         display: inline;
@@ -160,8 +158,8 @@
     .page__meta,
     .page__lead,
     .btn {
-      color: #000;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      color: #fff;
+
     }
 
     .page__lead {
@@ -189,11 +187,11 @@
   padding-left: 2em;
   margin-bottom: 2em;
   padding: 5px 5px;
-  color: #000;
+  color: #fff;
   font-family: $global-font-family;
   font-size: $type-size-4;
   z-index:10;
-  background: rgba(255,255,255,0.8);
+  background: rgba(0,0,0,0.7);
   text-align: left;
   z-index: 5;
   border-radius: $border-radius 0 $border-radius 0;
