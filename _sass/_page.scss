@@ -48,15 +48,13 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-2;
-  z-index: 5;
+  z-index: 10;
   background: #fff;
   text-align: left;
+  z-index: 5;
   opacity: 0.5;
   border-radius: $border-radius 0 $border-radius 0;
 
-  p {
-    opacity: 1;
-  }
 }
 
 .page__content {
@@ -190,15 +188,14 @@
   color: #000;
   font-family: $global-font-family;
   font-size: $type-size-4;
+  z-index:10;
   background: #fff;
   text-align: left;
   z-index: 5;
   opacity: 0.5;
   border-radius: $border-radius 0 $border-radius 0;
 
-  p {
-    opacity: 1;
-  }
+
 
   @include breakpoint($large) {
     padding: 5px 10px;
