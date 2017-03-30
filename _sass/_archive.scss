@@ -70,11 +70,23 @@
   img {
     width: 100%;
   }
-  i.fa {
-    font-size: $type-size-0;
+}
+
+.layout--splash {
+  .archive__item-teaser {
+    i.fa {
+      font-size: $type-size-0;
+    }
   }
 }
 
+.layout--single {
+  .archive__item-teaser {
+    i.fa {
+      font-size: $type-size-2;
+    }
+  }
+}
 
 /*
    List view
