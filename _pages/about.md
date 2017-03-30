@@ -3,8 +3,8 @@ title: "About"
 permalink: /about/
 layout: single
 ---
-
->Luminaire Definition Screen shot>
+>Luminaire Definition Screen shot
+---
 
 feature_row1:
   - image_path:
@@ -27,8 +27,6 @@ feature_row4:
     title: "Proportionate"
     excerpt: 'Proportionate eval/research.'
 
-
-
 {% include feature_row id="feature_row1" type="left" %}
 
 {% include feature_row id="feature_row2" type="left" %}
@@ -37,6 +35,5 @@ feature_row4:
 
 {% include feature_row id="feature_row4" type="left" %}
 
-
-
->Experience>
+---
+>Experience
