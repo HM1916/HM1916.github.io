@@ -76,6 +76,7 @@
   .archive__item-teaser {
     i.fa {
       font-size: $type-size-0;
+      color: $footer-colour;
     }
   }
 }
@@ -83,7 +84,7 @@
 .layout--single {
   .archive__item-teaser {
     i.fa {
-      font-size: $type-size-2;
+      font-size: $type-size-0;
     }
   }
 }

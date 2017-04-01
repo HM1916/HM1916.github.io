@@ -7,26 +7,26 @@ feature_row1:
   - fa: fa-users
     alt: "Value 1"
     title: "Collaboration"
-    excerpt: 'Team work is the key to success and this is no different at Luminaire. We pride ourselves on active listening and partnership working.'
+    excerpt: 'Team work is always the key to success, we pride ourselves on active listening and partnership working.'
 feature_row2:
-  - fa: fa-unlock
+  - fa: fa-unlock-alt
     alt: "Value 2"
     title: "Empowerment"
-    excerpt: 'No magic formulas or secret recipes here, we enjoy sharing our knowledge with you so that you can develop skills within your organisation.'
+    excerpt: 'No closely guarded secret recipes here, we enjoy sharing our knowledge with you so that you can develop skills within your organisation.'
 feature_row3:
   - fa: fa-lightbulb-o
     alt: "Value 3"
-    title: "Enlightment"
-    excerpt: 'we believe it is important everyone understands the opportunities to….stakeholders, organisations, commissioners?? Communicate benefits of work'
+    title: "Awareness"
+    excerpt: 'We believe in raising awareness of methods to robustly communicate the impact of projects and the benefits of translating research into practice.'
 feature_row4:
   - fa: fa-percent
     alt: "Value 4"
-    title: "Proportionate"
+    title: "Proportion"
     excerpt: 'Whilst we really like to use all of the tools in our kit bag, we’re dedicated to guiding you to the best solution relative to the size and scope of your work.'
 
 ---
 
->Luminaire Definition
+**We have a strong sense of what matters to us at Luminaire Consultancy, we believe in:**
 
 {% include feature_row id="feature_row1" type="left" %}
 
@@ -36,4 +36,10 @@ feature_row4:
 
 {% include feature_row id="feature_row4" type="right" %}
 
->Experience
+**Helen Mayor, Director**
+
+Helen holds an Msc in Health Psychology and BSc Hons in Psychology. Working within the voluntary sector, Helen has experience of undertaking data collection and analysis to support effective monitoring, evaluation and service development. She has worked as a research assistant at York St John University within the Unit for Child and Youth Studies (check) and has also worked with Dr John Reidy, Sheffield Hallam University to publish a peer reviewed journal article relating to the psychological impact of a long term health condition (link). Placement experience??
+
+Helen is passionate about enabling the often ‘unsung heroes’ of the voluntary sector to demonstrate the value of their work. Having worked within this field she is aware of the all too common constraints of time, resources and capacity. Such insight enables Helen to develop effective and efficient working partnerships.
+
+Helen is a member of the British Psychological Society and the Health Psychology in Public Health Network.
