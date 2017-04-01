@@ -21,7 +21,7 @@ Intro...
 
 We deliver:
 
-* Quantitative Research-including data collection and analysis of pre-existing data sets
+* Quantitative Research
 * Qualitative Research
 * Literature Reviews
 

@@ -40,6 +40,6 @@ feature_row4:
 
 Helen holds an Msc in Health Psychology and BSc Hons in Psychology. Working within the voluntary sector, Helen has experience of undertaking data collection and analysis to support effective monitoring, evaluation and service development. She has worked as a research assistant at York St John University within the Unit for Child and Youth Studies (check) and has also worked with Dr John Reidy, Sheffield Hallam University to publish a peer reviewed journal article relating to the psychological impact of a long term health condition (link). Placement experience??
 
-Helen is passionate about enabling the often ‘unsung heroes’ of the voluntary sector to demonstrate the value of their work. Having worked within this field she is aware of the all too common constraints of time, resources and capacity. Such insight enables Helen to develop effective and efficient working partnerships.
+Helen is passionate about enabling the often ‘unsung heroes’ of the voluntary sector to demonstrate the value of their work. Her experience within this sector means she is aware of the all too common constraints of time, resources and capacity. Such insight enables Helen to develop effective and efficient working partnerships.
 
 Helen is a member of the British Psychological Society and the Health Psychology in Public Health Network.
