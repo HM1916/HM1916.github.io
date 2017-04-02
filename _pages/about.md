@@ -2,6 +2,7 @@
 title: "About"
 permalink: /about/
 layout: single
+author_profile: false
 
 feature_row1:
   - fa: fa-users
