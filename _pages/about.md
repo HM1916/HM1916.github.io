@@ -9,17 +9,15 @@ feature_row1:
     alt: "Value 1"
     title: "Collaboration"
     excerpt: 'Team work is always the key to success, we pride ourselves on active listening and partnership working.'
-feature_row2:
   - fa: fa-unlock-alt
     alt: "Value 2"
     title: "Empowerment"
     excerpt: 'No closely guarded secret recipes here, we enjoy sharing our knowledge with you so that you can develop skills within your organisation.'
-feature_row3:
+feature_row2:
   - fa: fa-lightbulb-o
     alt: "Value 3"
     title: "Awareness"
     excerpt: 'We believe in raising awareness of methods to robustly communicate the impact of projects and the benefits of translating research into practice.'
-feature_row4:
   - fa: fa-percent
     alt: "Value 4"
     title: "Proportion"
@@ -29,13 +27,10 @@ feature_row4:
 
 **We have a strong sense of what matters to us at Luminaire Consultancy, we believe in:**
 
-{% include feature_row id="feature_row1" type="left" %}
+{% include feature_row id="feature_row1" type="center" %}
 
-{% include feature_row id="feature_row2" type="right" %}
+{% include feature_row id="feature_row2" type="center" %}
 
-{% include feature_row id="feature_row3" type="left" %}
-
-{% include feature_row id="feature_row4" type="right" %}
 
 **Helen Mayor, Director**
 
