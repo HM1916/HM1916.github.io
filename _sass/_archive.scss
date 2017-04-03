@@ -246,3 +246,17 @@
     }
   }
 }
+
+
+.values-grid {
+  display: flex;
+
+  .archive__item {
+    flex: 1 1 50%;
+    padding: 2em;
+
+    .archive__item-excerpt {
+      text-align: justify;
+    }
+  }
+}
