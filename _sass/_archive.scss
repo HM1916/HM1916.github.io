@@ -62,6 +62,15 @@
   }
 }
 
+.values-grid {
+  .archive__item-teaser {
+    color: $value-color;
+  }
+  .archive__item-excerpt {
+    font-size: $type-size-5;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   text-align: center;
