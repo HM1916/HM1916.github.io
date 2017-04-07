@@ -323,7 +323,7 @@
 @media screen and (max-width: 600px) {
   .visible-links a:not(:first-child) {display: none;}
   .visible-links a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
