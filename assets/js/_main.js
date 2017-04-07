@@ -78,4 +78,4 @@ function myFunction() {
     } else {
         x.className = "visible-links";
     }
-}
+});
