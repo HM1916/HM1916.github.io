@@ -86,7 +86,7 @@
 
   .greedy-nav a:not(:first-child) {display: none;}
 
-  .greedy-nav a.hamburger, a.site-title {
+  .greedy-nav a.hamburger, .greedy-nav a.site-title {
     display: block;
   }
 
