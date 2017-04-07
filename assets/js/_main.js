@@ -71,11 +71,9 @@ $(document).ready(function(){
 
 });
 
-function myFunction() {
-    var x = document.getElementById("myvisiblelinks");
-    if (x.className === "visible-links") {
-        x.className += " responsive";
-    } else {
-        x.className = "visible-links";
-    }
+$(document).ready(function(){
+  $("#site-nav a.hamburger").click(function(event) {
+    event.preventDefault();
+    $("#site-nav").toggleClass('popdown');
+  });
 });
