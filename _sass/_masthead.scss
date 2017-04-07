@@ -80,13 +80,17 @@
 }
 
 @media screen and (max-width: 600px) {
-  .greedy-nav {
+  nav.greedy-nav {
     display: block;
   }
 
   .greedy-nav a:not(:first-child) {display: none;}
 
-  .greedy-nav a.hamburger {
+  .greedy-nav a.hamburger, a.site-title {
+    display: block;
+  }
+
+  .greedy-nav.popdown a {
     display: block;
   }
 
@@ -95,11 +99,8 @@
     right: 0;
     top: 0;
   }
-  .greedy-nav.popdown a {
-    display: block;
-  }
 
-  .greedy-nav .site-title {
+  .greedy-nav.popdown a.site-title {
     display: none;
   }
 }
