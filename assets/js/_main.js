@@ -70,10 +70,3 @@ $(document).ready(function(){
   });
 
 });
-
-$(document).ready(function(){
-  $("#site-nav a.hamburger").click(function(event) {
-    event.preventDefault();
-    $("#site-nav").toggleClass('popdown');
-  });
-});
