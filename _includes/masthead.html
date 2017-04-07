@@ -1,19 +1,16 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <ul class="visible-links">
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = site.url | append: site.baseurl %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <a class="site-title" href="{{ '/' | absolute_url }}"><img src="/assets/Images/logo lime.png"></a>
-      </nav>
-    </div>
+    <nav id="site-nav">
+      <a class="hamburger" href="#">&#9776;</a>
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+        {% else %}
+          {% assign domain = site.url | append: site.baseurl %}
+        {% endif %}
+        <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+      <a class="site-title" href="{{ '/' | absolute_url }}"><img src="/assets/Images/logo lime.png"></a>
+    </nav>
   </div>
 </div>
