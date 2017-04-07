@@ -34,7 +34,7 @@
   }
 }
 
-.site-title {
+.greedy-nav a.site-title {
   display: -webkit-box;
   display: flex;
   padding: 0.5rem 0;
@@ -80,7 +80,12 @@
 }
 
 @media screen and (max-width: 600px) {
+  .greedy-nav {
+    display: block;
+  }
+
   .greedy-nav a:not(:first-child) {display: none;}
+
   .greedy-nav a.hamburger {
     display: block;
   }
@@ -92,5 +97,9 @@
   }
   .greedy-nav.popdown a {
     display: block;
+  }
+
+  .greedy-nav .site-title {
+    display: none;
   }
 }
