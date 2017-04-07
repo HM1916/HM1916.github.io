@@ -74,3 +74,23 @@
     font-weight: 700;
   }
 }
+
+.greedy-nav a:hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .greedy-nav a:not(:first-child) {display: none;}
+  .greedy-nav a.hamburger {
+    display: block;
+  }
+
+  .greedy-nav.popdown a.hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .greedy-nav.popdown a {
+    display: block;
+  }
+}
