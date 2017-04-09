@@ -427,6 +427,14 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .director-info {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .service-icon {
   color: $value-color;
   float: right;
