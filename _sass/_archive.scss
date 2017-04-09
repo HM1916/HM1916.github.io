@@ -275,3 +275,13 @@ p.values-intro {
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .values-grid {
+    display: block;
+
+    .archive__item-excerpt {
+        text-align: center;
+    }
+  }
+}
