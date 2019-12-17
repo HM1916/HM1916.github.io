@@ -55,9 +55,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : helen_mayor1
+  username               : hcarrmayor
 linkedin:
-  username               : helen-mayor-a44696139
+  username               : helen-carr-a44696139
 facebook:
   username               :
   app_id                 :
@@ -79,7 +79,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Helen Mayor"
+  name             : "Helen Carr"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Director"
   location         : "Fulford, North Yorkshire"
@@ -96,13 +96,13 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : helen-mayor-a44696139
+  linkedin         : helen-carr-a44696139
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : helen_mayor1
+  twitter          : hcarrmayor
   vine             :
   weibo            :
   xing             :
